@@ -1,4 +1,4 @@
-#Capstone-Project- Unsupervised- Online Retail Customer Segmentation
+# Capstone-Project- Unsupervised- Online Retail Customer Segmentation
 
 Introduction
 Provided with transnational data set which contains all the transactions, the main objective is to identify major customer segments.
