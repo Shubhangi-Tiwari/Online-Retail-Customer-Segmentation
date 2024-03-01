@@ -1,16 +1,16 @@
 # Capstone-Project- Unsupervised- Online Retail Customer Segmentation
 
-**Introduction**
+#**Introduction**
 
 Provided with transnational data set which contains all the transactions, the main objective is to identify major customer segments.
 
-**Problem Statement**
+#**Problem Statement**
 
 Online Retail Customer Segmentation
 
 In this project, your task is to identify major customer segments on a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 
-**Dataset Information**
+##**Dataset Information**
 
 The provided Dataset is of transnational which consists detail of all the transactions occurred between 01/12/2010 and 09/12/2011. There are total 541909 rows and 8 columns in the provided dataset. In this dataset there are details for transaction including CustomerID, StockID, Description, InvoiceDate, InvoiceNo, Quantity, UnitPrice and Country. The main objective is to identify major customer segments for the same data set. Following are the details of all columns present:
 
