@@ -35,11 +35,17 @@ Country- The name of the country from where each customer resides.
 Data preprocessing involves cleaning and transformation data into suitable form for analysis. Data pre-processing involves Data Cleaning, Transformation and Data Reduction. Data Cleaning mainly removes any unwanted or null values, any missing data or noisy data is removed in cleaning. After cleaning data transformation is formed using Normalization techniques. Later Data reduction takes place when as per requirement particular column is created or any other unwanted column is removed using dimensionality reduction or any other method. This all steps are very important before implementing any model. Data visualization, in general makes complex data easy to understand and get significant insights from that entire dataset, so we used visualization which gave lots of insights of dataset, many questions were answered using graphs and visual plots. The graphs and visual plots used in this project are as follows:
 
 Distribution plot
+
 Bar plot
+
 Pair Plot
+
 Point Plot
+
 Scatter Plot
+
 Coorelation Heatmap
+
 For this visualization mainly seaborn & matplotlib library were used.
 
 **Model Implementation**
