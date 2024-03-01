@@ -1,14 +1,17 @@
 # Capstone-Project- Unsupervised- Online Retail Customer Segmentation
 
-Introduction
+**Introduction**
+
 Provided with transnational data set which contains all the transactions, the main objective is to identify major customer segments.
 
-Problem Statement
+**Problem Statement**
+
 Online Retail Customer Segmentation
 
 In this project, your task is to identify major customer segments on a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 
-Dataset Information
+**Dataset Information**
+
 The provided Dataset is of transnational which consists detail of all the transactions occurred between 01/12/2010 and 09/12/2011. There are total 541909 rows and 8 columns in the provided dataset. In this dataset there are details for transaction including CustomerID, StockID, Description, InvoiceDate, InvoiceNo, Quantity, UnitPrice and Country. The main objective is to identify major customer segments for the same data set. Following are the details of all columns present:
 
 InvoiceNo - Invoice number for the transaction.
@@ -27,7 +30,7 @@ CustomerID - CustomerID uniquely assigned to each customer.
 
 Country- The name of the country from where each customer resides. 
 
-Data Preprocessing and Visualization
+**Data Preprocessing and Visualization**
 
 Data preprocessing involves cleaning and transformation data into suitable form for analysis. Data pre-processing involves Data Cleaning, Transformation and Data Reduction. Data Cleaning mainly removes any unwanted or null values, any missing data or noisy data is removed in cleaning. After cleaning data transformation is formed using Normalization techniques. Later Data reduction takes place when as per requirement particular column is created or any other unwanted column is removed using dimensionality reduction or any other method. This all steps are very important before implementing any model. Data visualization, in general makes complex data easy to understand and get significant insights from that entire dataset, so we used visualization which gave lots of insights of dataset, many questions were answered using graphs and visual plots. The graphs and visual plots used in this project are as follows:
 
@@ -39,11 +42,11 @@ Scatter Plot
 Coorelation Heatmap
 For this visualization mainly seaborn & matplotlib library were used.
 
-Model Implementation
+**Model Implementation**
 
 For Customer Segmentation, I have created a RFM (Recency,Frequency and Monetary) model which helps us understand when was the last time user purchased item? How frequently customer shops, and how much money did the customer spends. Depending on there factors a RFM model is build, accordingly RFM score and values are calculated. Depending on those scores segmentation is done. For model implementation used K Means Clustering with elbow and silhouette method, later Hierarchical Clustering is used, both these models help to find optimal number of clusters.
 
-Conclusion
+**Conclusion**
 
 The conclusion drawn after entire data cleaning, processing, analysing, visualizing and implementing different machine learning models are as follows:
 
